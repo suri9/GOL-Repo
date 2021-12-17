@@ -11,6 +11,6 @@ spec:
       spec:
          containers:
          - name: sample-pod
-           image: docker.io/suresh009/gameoflife:6
+           image: docker.io/suresh009/gameoflife:latest
            ports:
            - containerPort: 8080
